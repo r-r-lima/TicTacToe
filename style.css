@@ -1,0 +1,90 @@
+/* CSS Document */
+
+div#board_title{
+	font-family: "Lucida Sans";
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+	position: absolute;
+	left: 158px;
+	top: 44px;
+}
+
+div#board div {
+	cursor: pointer;
+	position: absolute;
+	background-image: url(button.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+
+div#board div#sq0{
+	left: 150px;
+	top: 150px;
+}
+div#board div#sq0.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq0.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq1{
+	left: 205px;
+	top: 150px;
+}
+div#board div#sq1.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq1.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq2{
+	left: 260px;
+	top: 150px;
+}
+div#board div#sq2.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq2.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq3{
+	left: 150px;
+	top: 205px;
+}
+div#board div#sq3.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq3.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq4{
+	left: 205px;
+	top: 205px;
+}
+div#board div#sq4.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq4.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq5{
+	left: 260px;
+	top: 205px;
+}
+div#board div#sq5.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq5.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq6{
+	left: 150px;
+	top: 260px;
+}
+div#board div#sq6.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq6.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq7{
+	left: 205px;
+	top: 260px;
+}
+div#board div#sq7.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq7.sq_buttonX{background-image: url(buttonX.png);}
+
+div#board div#sq8{
+	left: 260px;
+	top: 260px;
+}
+div#board div#sq8.sq_buttonO{background-image: url(buttonO.png);}
+div#board div#sq8.sq_buttonX{background-image: url(buttonX.png);}
+
+.timer {
+	font-family: "Lucida Sans";
+	font-size: 24px;
+	font-weight: bold;
+	color: #CC0000;
+}

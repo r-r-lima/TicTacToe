@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Tic-Tac-Toe</title>
+<link rel="stylesheet" href="style.css" /> 
+<script type="text/javascript" src="Main.js"></script> 
+
+<script type="text/javascript">
+var game=new Main();
+</script>
+</head>
+
+<body>
+
+<div id="board_title">Tic Tac Toe</div>
+
+<div id="board">
+	<div id="sq0" onclick="clickSq(0)"></div>
+	<div id="sq1" onclick="clickSq(1)"></div>
+	<div id="sq2" onclick="clickSq(2)"></div>
+	<div id="sq3" onclick="clickSq(3)"></div>
+	<div id="sq4" onclick="clickSq(4)"></div>
+	<div id="sq5" onclick="clickSq(5)"></div>
+	<div id="sq6" onclick="clickSq(6)"></div>
+	<div id="sq7" onclick="clickSq(7)"></div>
+	<div id="sq8" onclick="clickSq(8)"></div>
+</div>
+
+<br /><br /><br /><br /><br /><br /><br />
+
+Player1 Timer:<br />
+<div id="t1" class="timer">30.0</div><br /><br />
+Player2 Timer:<br />
+<div id="t2" class="timer">30.0</div><br /><br />
+<br /><br />
+<input type="button" value="New Game" onClick="window.location.reload()"  />
+
+</body>
+</html>
